@@ -3,9 +3,9 @@ __author__ = 'tyr'
 import requests
 import json
 class Interface_Request:
-    def req_get(self,url,params,headers):
+    def req_get(self, url, params, headers):
         try:
-            r = requests.get(url,params=params,headers= headers)
+            r = requests.get(url, params=params, headers=headers)
             json_r = r.json()
             return json_r
         except BaseException as e:
@@ -25,4 +25,4 @@ class Interface_Request:
             r = requests.post(url,data = data, headers = headers)
             json_r = r.json()
         except Exception as e:
-            print ("请求不能完成：",str(e))
+            print("请求不能完成：", str(e))

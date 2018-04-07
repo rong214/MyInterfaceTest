@@ -2,7 +2,7 @@
 __author__ = 'tyr'
 import sys
 sys.path.append("E:\PythonFile\InterfaceTest\com\tyr\common")
-from common.re import Interface_Request
+from framework.re import Interface_Request
 
 class InterfaceTest:
     def testrequest(self,url,uri,params,reqform,dataform,checkpoint,headers,i,sheet,num,name,log):

@@ -23,7 +23,7 @@ re_test = InterfaceTest()
 url = r"http://mt.youmeishi.cn:81"
 #接口地址
 uri = "/uaa/oauth/token"
-params = {'firstusername':"997719841225","password":"123456", 'grant_type':'first_user','username':'liyuchun'}
+params = {'firstusername':"xxx","password":"xxx", 'grant_type':'first_user','username':'xxx'}
 headers = {'Content-Type':'application/x-www-form-urlencoded','Authorization':'Basic eW1zLTMtY3JtOnRyMmx4Tnl2RW0wQVRXajhhYVNH',
            'Accept':'application/json,text/plain,*/*'}
 #请求类型

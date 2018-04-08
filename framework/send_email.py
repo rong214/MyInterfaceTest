@@ -40,6 +40,6 @@ class SendEmail(object):
         #发送，from+to+内容
         smtp.sendmail(mail_from, mail_to, str(msg))
         smtp.quit()
-        print ('发送邮件成功')
+        print('发送邮件成功')
 
 

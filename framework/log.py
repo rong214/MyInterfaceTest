@@ -1,5 +1,5 @@
-__author__ = 'tyr'
 # -*- coding: utf-8 -*-
+__author__ = 'tyr'
 import logging
 import os
 import time
